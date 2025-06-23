@@ -1,0 +1,27 @@
+import os
+import cv2
+import numpy as np
+
+input_dir = "./Task1_Basic_Image_Colorization/BSDS300/images/train"
+output_gray_dir = "./data/grayscale"
+output_color_dir = "./data/color"
+
+os.makedirs(output_gray_dir, exist_ok=True)
+os.makedirs(output_color_dir, exist_ok=True)
+
+count = 0
+for filename in os.listdir(input_dir):
+    if filename.endswith(".jpg"):
+        img = cv2.imread(os.path.join(input_dir, filename))
+        if img is None:
+            continue
+        img = cv2.resize(img, (128, 128))
+
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        gray_3channel = cv2.cvtColor(gray, cv2.COLOR_GRAY2RGB)
+
+        np.save(os.path.join(output_gray_dir, f"{count}.npy"), gray_3channel)
+        np.save(os.path.join(output_color_dir, f"{count}.npy"), img)
+        count += 1
+
+print("Preprocessing Done!")
