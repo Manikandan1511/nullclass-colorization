@@ -1,0 +1,20 @@
+tensorflow==2.13.0
+keras==2.13.1
+opencv-python==4.8.0.76
+Pillow==10.2.0
+numpy==1.24.3
+
+# 🔍 Notes:
+tensorflow==2.13.0 and keras==2.13.1 work well together and are stable on macOS.
+
+opencv-python==4.8.0.76 is compatible with Python 3.9+.
+
+Pillow is used for image display in the Tkinter canvas.
+
+numpy is essential for image and array processing.
+
+# ✅ This list avoids unnecessary packages and ensures your .venv environment is lightweight and fast.
+
+# 📦 Install using:
+
+pip install -r requirements.txt
