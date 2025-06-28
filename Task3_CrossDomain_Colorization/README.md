@@ -91,3 +91,5 @@ Format: .h5 (Keras-compatible)
 
 [✔️] Task 3: Cross-Domain Image Colorization with GUI ✅
 
+## ✍️ Author
+Manikandan S
