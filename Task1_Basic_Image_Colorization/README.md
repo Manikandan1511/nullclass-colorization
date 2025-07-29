@@ -13,6 +13,7 @@ This project focuses on building a deep learning model using CNN to colorize gra
 - Final Validation Loss: 0.0111
 
 ##  Folder Structure
+```
 Task1_Basic_Image_Colorization/
 ├── data/
 ├── colorize_bsd500.ipynb
@@ -20,7 +21,7 @@ Task1_Basic_Image_Colorization/
 ├── colorization_model.h5
 ├── requirements.txt
 ├── README.md
-
+```
 ##  How to Run
 1. Install dependencies:
     ```
