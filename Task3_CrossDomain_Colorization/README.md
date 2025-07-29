@@ -19,7 +19,7 @@ Cross-domain colorization means applying a model trained on one type of data (li
 
 
 ## 🗂️ Folder Structure
-
+```
 Task3_CrossDomain_Colorization/
 ├── gui/
 │ └── cross_domain_gui.py # Main GUI code
@@ -31,7 +31,7 @@ Task3_CrossDomain_Colorization/
 │ └── colorized_output.jpg # Saved outputs
 ├── requirements.txt # Dependency list
 └── README.md # Project documentation
-
+```
 
 ## 🎯 Key Features
 
