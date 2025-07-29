@@ -5,7 +5,7 @@ This project uses a trained deep learning model to colorize live grayscale video
 ---
 
 ## Project Structure
-
+```
 Task2_RealTime_Colorization/
 ├── model/
 │ └── colorization_model.h5 # Trained deep learning model
@@ -13,7 +13,7 @@ Task2_RealTime_Colorization/
 │ ├── colorization_gui.py # Main GUI application script
 │ ├── launch_colorization_gui.command # Double-clickable launcher for Mac
 │ └── .venv/ # Virtual environment (local to GUI)
-
+```
 
 ## How to Run the Application
 
