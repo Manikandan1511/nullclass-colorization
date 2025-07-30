@@ -47,6 +47,7 @@ Task3_CrossDomain_Colorization/
 ### Step 1: Clone the Repository
 
 git clone https://github.com/Manikandan1511/nullclass-colorization.git
+
 cd nullclass-colorization/Task3_CrossDomain_Colorization
 
 ### Step 2: Create Virtual Environment
