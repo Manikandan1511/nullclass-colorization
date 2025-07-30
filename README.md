@@ -8,7 +8,7 @@ This repository showcases a comprehensive **Image & Video Colorization** project
 
 ## 📁 Tasks Overview
 
-### ✅ Task 1: Basic Image Colorization
+###  Task 1: Basic Image Colorization
 
 - **Objective**: Convert grayscale images to color using a trained deep learning model.
 - **Model Used**: Trained on the **BSD500 dataset**.
@@ -21,7 +21,7 @@ This repository showcases a comprehensive **Image & Video Colorization** project
 
 ---
 
-### ✅ Task 2: Real-Time Video Colorization with GUI
+###  Task 2: Real-Time Video Colorization with GUI
 
 - **Objective**: Capture live grayscale video feed from webcam and display it colorized in real time using a GUI.
 - **GUI Framework**: `Tkinter`
@@ -36,7 +36,7 @@ This repository showcases a comprehensive **Image & Video Colorization** project
 
 ---
 
-### ✅ Task 3: Cross-Domain Image Colorization with GUI
+###  Task 3: Cross-Domain Image Colorization with GUI
 
 - **Objective**: Enable users to **upload grayscale images from various domains (nature, cartoons, objects)** and colorize them using a pre-trained model.
 - **Features**:
