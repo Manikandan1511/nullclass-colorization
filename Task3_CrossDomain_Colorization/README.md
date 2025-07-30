@@ -90,7 +90,7 @@ Format: .h5 (Keras-compatible)
 
 [✔️] Task 2: Real-Time Video Colorization with GUI
 
-[✔️] Task 3: Cross-Domain Image Colorization with GUI ✅
+[✔️] Task 3: Cross-Domain Image Colorization with GUI 
 
 ## ✍️ Author
 Manikandan S
